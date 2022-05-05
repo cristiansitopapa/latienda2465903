@@ -55,7 +55,7 @@ Route::get('arreglo' , function(){
                 "capital" => "Bogotá",
                 "moneda" => "Peso",
                 "población" => 51,
-                "ciudades principales" => [
+                "ciudades" => [
                     "Medellin",
                     "Cali",
                     "Brranquilla"
@@ -65,7 +65,7 @@ Route::get('arreglo' , function(){
                 "capital" => "Lima",
                 "moneda" => "Sol",
                 "población" => 32,
-                "ciudades principales" => [
+                "ciudades" => [
                     "Arequipa",
                     "Trujillo"
                 ]
@@ -73,25 +73,38 @@ Route::get('arreglo' , function(){
             "paraguay" => [ 
                 "capital" => "Asunción",
                 "moneda" => "Guaraní",
-                "población" => 51,
-                "ciudades principales" => [
+                "población" => 7,
+                "ciudades" => [
                     "Luque",
                 ]
             ],
             "Brasil" => [ 
                 "capital" => "Brasilia",
                 "moneda" => "Real Brasieño",
-                "población" => 212
+                "población" => 212,
+                "ciudades" => [
+                    "Rio de Janeiro",
+                    "Sao paulo",
+                    "Curitiba",
+                ]
             ],
             "ecuador" => [ 
                 "capital" => "Quito",
                 "moneda" => "Dolar",
-                "población" => 17
+                "población" => 17,
+                "ciudades" => [
+                    "Ambato",
+                    "Loja",
+                ]
             ],
             "argentina" => [ 
                 "capital" => "Buenos Aires",
                 "moneda" => "Peso Argentino",
-                "población" => 45
+                "población" => 45,
+                "ciudades" => [
+                    "La plata",
+                    "Rosario",
+                ]
             ]
         ];
 
